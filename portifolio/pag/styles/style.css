@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Chivo+Mono:ital,wght@1,100&display=swap');
+
+
+:root{
+  --fonte01:'Alkatra', cursive;
+  --fonte02:'Chivo Mono', monospace;
+}
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html, body{
+  min-height: 100vh;
+  background-color: #2819193a;
+}
+header{
+  padding: 3vh;
+  text-align: center;
+  color:white;
+  background-color: black;
+}
+header > h1{
+  font-variant: small-caps;
+  margin-bottom: 10px;
+  font-family: var(--fonte02);
+  font-size: 4vw;
+}
+section{
+  line-height: 2em;
+  padding: 10vh 0vh 10vh 5vh;
+  font-family: var(--fonte01);
+  font-size: 3vw;
+}
+.nor{
+  background-color: white;
+  color:black;
+}
+.img{
+  background-color: black;
+  color:white;
+  box-shadow: inset 5px 5px 12px 0px #0000008e;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.img{
+  background-image: url("../imagem/f08.jpg");
+}
+#img2{
+  background-image: url('../imagem/fundo09.jpg');
+}
+footer{
+  padding: 1vh;
+  text-align: center;
+  background-color: black;
+  color:white;
+  font-size: 14px;
+}

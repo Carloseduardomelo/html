@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial ;
+}
+html, body{
+  background-color: #233eff;
+}
+h1{
+  padding: 20px;
+}
+@media only screen and (orientation: portrait){
+  body{
+    width: 100vw;
+    height: 100vh;
+    
+    
+    background-image: url('../imagens/cev-portrait.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+  }
+}

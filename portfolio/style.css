@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #3c3c40d7;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.contato{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6vh;
+  background-size: cover;
+}
+.nav_list{
+  list-style: none;
+  display: flex;
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+.nav_list li{
+  text-align: right;
+  margin-right: 20px;
+}
+
+body{
+  background: url("imagem/a1668x1668.jpg")no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 92vh;
+}
+main p{
+  color:white;
+  font-size: 20px;
+  text-align: justify;
+  margin: auto;
+  width: 300px;
+}

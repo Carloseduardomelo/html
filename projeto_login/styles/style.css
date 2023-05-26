@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: linear-gradient(to top, #79d131, #16aec2);
+
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+p{
+    text-align: justify;
+}
+#login{
+    width: 250px;
+    height: 500px;
+
+    background-color: rgb(90, 70, 204);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    border-radius: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.356);
+
+    overflow: hidden;
+
+    transition: width .3s, height .3s; /* para fazer uma aminação simple de altura e de largura qundo trocar de media */
+    transition-timing-function: ease;
+}
+#imagen{
+    background: url("../imagens/pexels-pixabay-248921\ \(1\).jpg") no-repeat center center;
+    background-size: cover;
+
+    height: 150px;
+
+    display: block;
+}
+#formu{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    margin: 10px;
+
+    display: block;
+}

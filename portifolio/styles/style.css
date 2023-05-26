@@ -1,0 +1,70 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html, body{
+  background-color: black;
+  color:white;
+  font-family: Verdana Sans-Serif;
+}
+header{
+  background-color: black;
+  height:10vh;
+}
+h3{
+  text-align: center;
+}
+.menu{
+  height: 10vh;
+  width:100vw;
+  display: flex;
+  justify-content: end;
+}
+.menu > span{
+  margin-top: 20px;
+}
+.menu > span > a{
+  padding:0px 10px 0px 10px ;
+  margin-right: 10px;
+  text-align: center;
+}
+.menu > span > a{
+    position: relative;
+    font-size: 1.1em;
+    color:#00ccff ;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.menu > span > a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #30cf8b;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .8s;
+}
+
+.menu > span > a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.ex{
+  height: 350px;
+  width: 700px;
+  background-color: white;
+  color:black;
+}
+iframe{
+  height: 350px;
+  width: 700px;
+  position: absolute;
+  right: 1px;
+  top: 82px;
+}
