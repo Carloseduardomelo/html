@@ -2,9 +2,6 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    P{
-        text-align: center;
-    }
     #login{
         width: 80vw;
     }
@@ -19,19 +16,16 @@
     }
 }
 @media screen and (min-width: 992px){
-    P{
-        text-align: center;
-    }
     #login{
         width: 990px;
     }
     #imagen{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formu{
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
     }
