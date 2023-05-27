@@ -1,4 +1,12 @@
 @charset "UTF-8";
+:root{
+    --cor1: #83B692;
+    --cor2: #F9ADA0;
+    --cor3: #F9627D;
+    --cor3_1:  #f84d6c;
+    --cor4: #C65B7C;
+    --cor5: #5B3758;
+}
 
 *{
     margin: 0px;
@@ -9,7 +17,7 @@ html,body{
     width: 100vw;
     height: 100vh;
 
-    background-image: linear-gradient(to top, #79d131, #16aec2);
+    background-image: linear-gradient(to top, var(--cor4), var(--cor5));
 
     box-sizing: border-box;
 }
@@ -19,12 +27,16 @@ h1{
 }
 P{
     text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    display: none;
 }
 #login{
     width: 250px;
     height: 500px;
 
-    background-color: rgb(90, 70, 204);
+    background-color: var(--cor2);
 
     position: absolute;
     top: 50%;
@@ -40,6 +52,10 @@ P{
 
     transition: width .3s, height .3s; /* para fazer uma aminação simple de altura e de largura qundo trocar de media */
     transition-timing-function: ease;
+
+
+    display: block;    
+
 }
 #imagen{
     background: url("../imagens/pexels-pixabay-248921\ \(1\).jpg") no-repeat center center;
@@ -50,13 +66,58 @@ P{
     display: block;
 }
 #formu{
-    position: absolute;
-    top: 65%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
+    text-align: center;
 
     margin: 10px;
 
+    width: 100%;
+    margin: auto;
+}
+.form{
+    margin: auto;
+}
+.campo{
+   background-color: var(--cor3);
+   margin: 10px 0px;
+   font-size: 1em;
+   height: 50px;
+   border-radius: 20px;
+   width: 90%;
+
+   height: 40px;
+   margin: auto;
+   margin-bottom: 20px;
+}
+span{
+    transform: translateY(6px);
+}
+.campo > input{
+    width: 30%px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.botao{
     display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    color: white;
+    background-color:var(--cor3);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.botao:hover{
+    background-color: var(--cor3_1);
+}
+.form > a{
+    color: white;
+    text-decoration: none;
+}
+.form > a:hover{
+    color: aqua;
 }
