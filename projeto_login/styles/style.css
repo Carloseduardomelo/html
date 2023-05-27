@@ -2,10 +2,17 @@
 :root{
     --cor1: #83B692;
     --cor2: #F9ADA0;
-    --cor3: #F9627D;
-    --cor3_1:  #f84d6c;
+    --cor3: #f74e6d;
+    --cor3_1:  #fc2d53;
     --cor4: #C65B7C;
     --cor5: #5B3758;
+/*putra paleta de cores verde 'ficou muito bom '*/
+    --cor6: #073B3A;
+    --cor7: #0B6E4F;
+    --cor8: #08A045;
+    --cor8_1:#057431;
+    --cor9: #6BBF59;
+    --cor10: #DDB771;
 }
 
 *{
@@ -17,7 +24,7 @@ html,body{
     width: 100vw;
     height: 100vh;
 
-    background-image: linear-gradient(to top, var(--cor4), var(--cor5));
+    background-image: linear-gradient(to top, var(--cor6), var(--cor10));
 
     box-sizing: border-box;
 }
@@ -36,7 +43,7 @@ label{
     width: 250px;
     height: 500px;
 
-    background-color: var(--cor2);
+    background-color: var(--cor9);
 
     position: absolute;
     top: 50%;
@@ -58,7 +65,7 @@ label{
 
 }
 #imagen{
-    background: url("../imagens/pexels-pixabay-248921\ \(1\).jpg") no-repeat center center;
+    background: url("../imagens/mosaic-gd7e960af8_1280.png") no-repeat center center;
     background-size: cover;
 
     height: 150px;
@@ -77,11 +84,11 @@ label{
     margin: auto;
 }
 .campo{
-   background-color: var(--cor3);
+   background-color: var(--cor8);
    margin: 10px 0px;
    font-size: 1em;
    height: 50px;
-   border-radius: 20px;
+   border-radius: 15px;
    width: 90%;
 
    height: 40px;
@@ -95,7 +102,7 @@ span{
     width: 30%px;
     height: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
 }
 .botao{
@@ -104,7 +111,7 @@ span{
     width: 90%;
     height: 40px;
     color: white;
-    background-color:var(--cor3);
+    background-color:var(--cor8);
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -112,7 +119,7 @@ span{
     margin-bottom: 20px;
 }
 .botao:hover{
-    background-color: var(--cor3_1);
+    background-color: var(--cor8_1);
 }
 .form > a{
     color: white;
