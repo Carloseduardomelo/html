@@ -1,11 +1,24 @@
-@media only screen and (orientation: landscape){
+@media screen and (min-width:768px) and (max-width:992px){
   body{
-    width: 100vw;
-    height: 100vh;
-    
-    
-    background-image: url('../imagens/cev-landscape.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url('../imagens/back-tablet.jpg');
+  }
+  #tab{
+    display: block;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+  body{
+    background-image: url('../imagens/back-eesktop.jpg');
+  }
+  #pc{
+    display: block;
+  }
+}
+@media screen and (min-width:1200px){
+  body{
+    background-image: url('../imagens/back-tv.jpg');
+  }
+  #tv{
+    display: block;
   }
 }
